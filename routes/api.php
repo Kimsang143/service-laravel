@@ -22,3 +22,5 @@ Route::post('userLogin','UserController@userLogin');
 Route::post('userRegister','UserController@userRegister');
 
 Route::post('userDetails','UserController@userDetails');
+Route::resource('articles', 'ArticleController');
+
